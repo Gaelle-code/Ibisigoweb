@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+  ::selection {
+    @apply bg-forest text-cream;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+  a,
+  button {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta focus-visible:ring-offset-2 focus-visible:ring-offset-cream;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-h-12 items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition duration-200;
+  }
+  .btn-primary {
+    @apply bg-forest text-cream hover:bg-terracotta;
+  }
+  .btn-ghost {
+    @apply border border-clay text-clay hover:bg-clay hover:text-cream;
+  }
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+}
