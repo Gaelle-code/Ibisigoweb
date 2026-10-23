@@ -11,3 +11,16 @@ export const profileSteps = [
   { title: "Profiled", text: "Every poet gets a professional Ibisigo profile with their story, style and videos." },
   { title: "Booked", text: "Customers choose a poet and book them for their event, all on Ibisigo." },
 ];
+
+export const performancePhotos = [
+  {
+    src: "/images/poet-live-performance.png",
+    alt: "A young Rwandan poet performing outdoors with a microphone",
+    caption: "A voice shared live, in the open air.",
+  },
+  {
+    src: "/images/poet-cultural-performance.png",
+    alt: "A young poet performing at a colorful community celebration",
+    caption: "Poetry brought to life at a community celebration.",
+  },
+];

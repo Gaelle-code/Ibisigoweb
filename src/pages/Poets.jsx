@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import PageHeader from "../components/PageHeader.jsx";
+import PerformanceGallery from "../components/PerformanceGallery.jsx";
 import SectionTitle from "../components/SectionTitle.jsx";
 import { site } from "../data/site.js";
 import { poetPartner, profileSteps } from "../data/poets.js";
@@ -34,6 +35,8 @@ export default function Poets() {
           </div>
         </div>
       </section>
+
+      <PerformanceGallery />
 
       <section className="bg-sand">
         <div className="container-x py-20">

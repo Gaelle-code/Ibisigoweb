@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PerformanceGallery from "../components/PerformanceGallery.jsx";
 import SectionTitle from "../components/SectionTitle.jsx";
 import { site } from "../data/site.js";
 import { report } from "../data/report.js";
@@ -173,6 +174,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <PerformanceGallery />
 
       <section className="container-x py-20">
         <SectionTitle

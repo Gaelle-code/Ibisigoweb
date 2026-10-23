@@ -26,3 +26,5 @@ Open http://localhost:5173
 - `src/data/poets.js`: your poet partner's name, role and bio
 - `src/data/report.js`: the grant progress report (empty sections show "Update coming soon")
 - `public/images/team.jpg`: the team photo
+- `public/images/poet-live-performance.png` and `public/images/poet-cultural-performance.png`: featured poet performances
+- `public/images/iteka-grant.png`: the Iteka Creative Catalyst Grant award photo
